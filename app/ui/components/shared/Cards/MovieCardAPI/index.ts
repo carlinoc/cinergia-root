@@ -1,0 +1,1 @@
+export { MovieCardAPI } from './MovieCardAPI';

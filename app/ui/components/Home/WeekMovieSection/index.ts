@@ -1,0 +1,1 @@
+export { WeekMovieSection } from './WeekMovieSection';

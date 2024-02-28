@@ -1,0 +1,38 @@
+.swiper {
+  user-select: none;
+}
+/* Initial styles with opacity set to 0 and transition effect */
+.swiper-button-next,
+.swiper-button-prev {
+  top: 0;
+  bottom: 0;
+  height: auto;
+  padding-inline: 1.5rem;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  backdrop-filter: blur(4px);
+  background-color: rgba(2, 6, 23, 0.3);
+}
+
+/* When hovering over .horizontalSlider, set opacity to 1 */
+.horizontalSlider:hover .swiper-button-next,
+.horizontalSlider:hover .swiper-button-prev {
+  opacity: 1;
+}
+
+/* Styles for disabled buttons with transition effect */
+.swiper-button-disabled {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    visibility: hidden;
+  }
+}

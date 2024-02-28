@@ -1,0 +1,1 @@
+export { ShortFilmsBannerSection } from './ShortFilmsBannerSection';

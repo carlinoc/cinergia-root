@@ -1,0 +1,1 @@
+export { BannerSliderMovie } from './BannerSliderMovie';

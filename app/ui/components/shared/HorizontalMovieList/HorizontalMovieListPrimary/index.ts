@@ -1,0 +1,1 @@
+export { HorizontalMovieListPrimary } from './HorizontalMovieListPrimary';
