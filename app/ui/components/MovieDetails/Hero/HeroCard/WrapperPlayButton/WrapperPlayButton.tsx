@@ -143,8 +143,8 @@ export default function WrapperPlayButton({
       if (token) {
         // Callback function to handle the payment response
         const callbackResponsePayment = (response) => {
-          // Successful transaction code
-          if (response.code === '021') {
+          // Successful transaction code 00 / 021
+          if (response.code === '00') {
             // Save payment information and play the movie if necessary
             saveMoviePay(
               TRANSACTION_ID,

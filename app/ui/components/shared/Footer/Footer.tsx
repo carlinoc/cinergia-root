@@ -35,7 +35,7 @@ export function Footer(): JSX.Element {
                 © 2023 Cinergia, Todos los derechos reservados.
               </span>
               <a
-                href=""
+                href="/condiciones-de-servicio"
                 className="span-base text-neutral-50 hover:text-primary-500 w-full"
               >
                 Términos y Condiciones
